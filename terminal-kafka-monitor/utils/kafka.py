@@ -93,7 +93,11 @@ groups = [
         'ConsumeCodeAnalysisQueue',
         'ConsumeFixSubmissionFileQueue',
         'InsightsProblemSubmissionQueue',
-        'ConsumeUpdatePracticeProblems']
+        'ConsumeUpdatePracticeProblems',
+        'ConsumeParticipationEndedCodeAutoSubmit',
+        'RealtimeCounterConsumer'
+        'ConsumeFixSubmissionFileQueue',
+        ]
 
 def get_consumer_groups_offset_status(groups=groups, stop_event=None):
     """Retrieve consumer offsets for the given set of
